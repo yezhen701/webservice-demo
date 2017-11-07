@@ -1,5 +1,6 @@
 package com.agioe.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.Entity;
@@ -11,7 +12,7 @@ import java.util.Date;
  * Created by zhye on 2017/10/25.
  */
 @Entity
-@Table(name="agioe_user")
+@Table(name="agioe_user_testby_yz")
 public class User {
     @Id
     private String userId;//id
@@ -49,7 +50,7 @@ public class User {
     public Date getUpdateTime() {
         return updateTime;
     }
-
+    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
     public void setUpdateTime(Date updateTime) {
         this.updateTime = updateTime;
     }

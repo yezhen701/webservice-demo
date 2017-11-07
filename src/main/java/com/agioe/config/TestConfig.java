@@ -1,5 +1,6 @@
 package com.agioe.config;
 
+import com.agioe.service.CableDtsTempService;
 import com.agioe.service.UserService;
 import org.apache.cxf.Bus;
 import org.apache.cxf.bus.spring.SpringBus;
@@ -21,6 +22,8 @@ public class TestConfig {
 
     @Autowired
     private UserService userService;
+    @Autowired
+    private CableDtsTempService cableDtsTempService;
 
     @Bean
     public ServletRegistrationBean dispatcherServlet() {
@@ -34,6 +37,12 @@ public class TestConfig {
     public Endpoint endpoint() {
         EndpointImpl endpoint = new EndpointImpl(springBus(), userService);
         endpoint.publish("/user");
+        return endpoint;
+    }
+    @Bean
+    public Endpoint endpoint1() {
+        EndpointImpl endpoint = new EndpointImpl(springBus(), cableDtsTempService);
+        endpoint.publish("/cable");
         return endpoint;
     }
 
