@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T09:02:45.564Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="zacKhDRLrbCdIECf0NUR" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T09:20:30.634Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="bUazPO2myhO_BsKxl6p1" version="17.1.1" type="github">
   <diagram id="LWZ2CtlcG5xfI4F9U-2H" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -141,24 +141,24 @@
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P4jvxCzI2_4ov7lsApTx-63" value="其他未完成项" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="523" y="740" width="140" height="150" as="geometry">
+          <mxGeometry x="523" y="740" width="257" height="150" as="geometry">
             <mxRectangle x="560" y="215" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P4jvxCzI2_4ov7lsApTx-64" value="1. 文件上传S3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-63">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+          <mxGeometry y="30" width="257" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P4jvxCzI2_4ov7lsApTx-66" value="2. 仿真集群任务调度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-63">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+          <mxGeometry y="60" width="257" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P4jvxCzI2_4ov7lsApTx-65" value="3. 仿真流程“command”&#xa;命令行" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-63">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
+          <mxGeometry y="90" width="257" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P4jvxCzI2_4ov7lsApTx-84" value="4. 普通账户修改自己密码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-63">
-          <mxGeometry y="120" width="140" height="30" as="geometry" />
+          <mxGeometry y="120" width="257" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P4jvxCzI2_4ov7lsApTx-69" value="仿真状态" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1290" width="730" height="200" as="geometry" />
+          <mxGeometry x="40" y="1300" width="730" height="200" as="geometry" />
         </mxCell>
         <mxCell id="P4jvxCzI2_4ov7lsApTx-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P4jvxCzI2_4ov7lsApTx-69" source="P4jvxCzI2_4ov7lsApTx-67" target="P4jvxCzI2_4ov7lsApTx-70">
           <mxGeometry relative="1" as="geometry" />
@@ -175,7 +175,7 @@
         <mxCell id="P4jvxCzI2_4ov7lsApTx-72" value="Error" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-69">
           <mxGeometry x="435" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P4jvxCzI2_4ov7lsApTx-74" value="Down" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-69">
+        <mxCell id="P4jvxCzI2_4ov7lsApTx-74" value="Done" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-69">
           <mxGeometry x="435" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="P4jvxCzI2_4ov7lsApTx-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P4jvxCzI2_4ov7lsApTx-69" source="P4jvxCzI2_4ov7lsApTx-70" target="P4jvxCzI2_4ov7lsApTx-74">
