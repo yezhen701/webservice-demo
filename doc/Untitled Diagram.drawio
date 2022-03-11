@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T09:01:56.030Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="WZ-HtnU4FnNteV_zQegv" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T09:02:45.564Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="zacKhDRLrbCdIECf0NUR" version="17.1.1" type="github">
   <diagram id="LWZ2CtlcG5xfI4F9U-2H" name="Page-1">
     <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -96,7 +96,7 @@
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P4jvxCzI2_4ov7lsApTx-46" value="已完成功能" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="460" width="140" height="150" as="geometry" />
+          <mxGeometry x="100" y="460" width="140" height="180" as="geometry" />
         </mxCell>
         <mxCell id="P4jvxCzI2_4ov7lsApTx-47" value="1. 编辑组" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-46">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -107,23 +107,23 @@
         <mxCell id="P4jvxCzI2_4ov7lsApTx-58" value="3. 默认支持工艺项仿真" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-46">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P4jvxCzI2_4ov7lsApTx-49" value="4. 组的拖拽" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-46">
+        <mxCell id="P4jvxCzI2_4ov7lsApTx-85" value="4. 组的拖拽" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-46">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P4jvxCzI2_4ov7lsApTx-50" value="未完成功能" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="523" y="470" width="140" height="120" as="geometry" />
+        <mxCell id="P4jvxCzI2_4ov7lsApTx-49" value="5. 组的clone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-46">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P4jvxCzI2_4ov7lsApTx-51" value="1. 组clone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-50">
+        <mxCell id="P4jvxCzI2_4ov7lsApTx-50" value="未完成功能" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="523" y="470" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="P4jvxCzI2_4ov7lsApTx-52" value="1. 仿真类型切换，cpu&#xa;核数指定（不支持）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-50">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P4jvxCzI2_4ov7lsApTx-52" value="2. 仿真类型切换，cpu&#xa;核数指定（不支持）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-50">
+        <mxCell id="P4jvxCzI2_4ov7lsApTx-53" value="2. 组仿真不支持" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-50">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P4jvxCzI2_4ov7lsApTx-53" value="3. 组仿真不支持" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-50">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="P4jvxCzI2_4ov7lsApTx-54" value="已完成功能" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="631" width="140" height="120" as="geometry" />
+          <mxGeometry x="95" y="700" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="P4jvxCzI2_4ov7lsApTx-55" value="1. 编辑工艺项，设置工&#xa;艺参数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="P4jvxCzI2_4ov7lsApTx-54">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
